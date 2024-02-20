@@ -1,6 +1,6 @@
 Day-01[20-02-2024]:
 ===================
-	Good Evening All..
+      Good Evening All..
 
 	Instructions in Online Sessions:
 	================================
@@ -59,7 +59,7 @@ Day-01[20-02-2024]:
 	            Here python will be installed if we select this option while installing it
 	        > Custom installation is user defined location path like c drive or d drive or etc., in that location the python will be installed but we need to select the "Add python 3.x to path" if not the python interpreter will not work in command prompt
 	
-	    Python Version Check or Checking whether it is installed in local machine or not?
+	Python Version Check or Checking whether it is installed in local machine or not?
 
 	Python Version Check:
 	=====================
@@ -127,10 +127,10 @@ Day-01[20-02-2024]:
 	        - localhost:8000 or 127.0.0.1:8000
 	        - We can observe the project is running Fine with default settings
 		
-		Stopping of a server:
-		=====================
-			- cmd
-			- cntrl + c
+	Stopping of a server:
+	=====================
+		- cmd
+		- cntrl + c
 	Task:
 	=====
 		Django:
