@@ -13,4 +13,11 @@ Day-02[21-02-2024]:
   - UserApp creation and Overview of files in it
   - Url Mapping(creation of url),Dynamic url mapping with single and n parameters with sample example on each
   - Interface between controllers (i.e., urls and views)
-  - HttpRequest and Response with html tag and inline css 
+  - HttpRequest and Response with html tag and inline css
+
+Day-03[26-02-2024]:
+===================
+  - HttpRequest adn Response with script,html tag and inline css
+  - MVC and MVT Design Pattern Overview
+  - Template Folder Creation
+  - Interface between controller and template
