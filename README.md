@@ -17,7 +17,7 @@ Day-02[21-02-2024]:
 
 Day-03[26-02-2024]:
 ===================
-  - HttpRequest adn Response with script,html tag and inline css
+  - HttpRequest and Response with script,html tag and inline css
   - MVC and MVT Design Pattern Overview
   - Template Folder Creation
   - Interface between controller and template
