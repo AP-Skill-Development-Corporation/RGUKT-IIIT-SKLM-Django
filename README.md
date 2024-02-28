@@ -25,3 +25,9 @@ Day-03[26-02-2024]:
 Day-04[27-02-2024]:
 ===================
   - Static File Handling
+
+Day-05[28-02-2024]:
+==================
+  - External Js for a template file
+  - Data rendering from template to controller and then controller to another template
+  - Model Creation,makemigrations and migrate withh sample example on it
