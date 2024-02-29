@@ -31,3 +31,8 @@ Day-05[28-02-2024]:
   - External Js for a template file
   - Data rendering from template to controller and then controller to another template
   - Model Creation,makemigrations and migrate withh sample example on it
+
+Day-06[29-02-2024]:
+===================
+  - Model Queries(ORM)
+  - Creating and Reading by using shell
