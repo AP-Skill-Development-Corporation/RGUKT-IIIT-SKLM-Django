@@ -1,0 +1,18 @@
+h3
+{
+	margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid green;
+    text-align: center;
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 8px 25px 25px 8px
+}
+form
+{
+	margin-right: 30%;
+	margin-left: 30%;
+	padding:15px;
+	border: 1px solid blue;
+	border-radius: 9px;
+}
