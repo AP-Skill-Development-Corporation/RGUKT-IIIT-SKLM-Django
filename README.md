@@ -35,4 +35,4 @@ Day-05[28-02-2024]:
 Day-06[29-02-2024]:
 ===================
   - Model Queries(ORM)
-  - Creating and Reading by using shell
+  - Creating and Reading a record by using shell
