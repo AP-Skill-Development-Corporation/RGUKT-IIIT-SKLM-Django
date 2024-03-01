@@ -36,3 +36,7 @@ Day-06[29-02-2024]:
 ===================
   - Model Queries(ORM)
   - Creating and Reading a record by using shell
+
+Day-07[01-03-2024]:
+===================
+  - Update and Delete a single or n number of records by using shell
