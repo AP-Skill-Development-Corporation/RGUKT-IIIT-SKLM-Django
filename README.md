@@ -40,3 +40,8 @@ Day-06[29-02-2024]:
 Day-07[01-03-2024]:
 ===================
   - Update and Delete a single or n number of records by using shell
+
+Day-08[02-03-2024]:
+===================
+  - Grid System,margin,padding,card,color,table and buttons
+  - Completed design for CRUD Operations
