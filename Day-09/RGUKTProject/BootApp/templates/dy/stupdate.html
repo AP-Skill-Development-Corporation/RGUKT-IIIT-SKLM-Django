@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Student Data</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">BTApp</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Student</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container mt-4">
+  <div class="card col-md-5 mx-auto shadow-lg border border-info">
+    <div class="card-body">
+      <h3 class="p-2 bg-primary text-light text-center border rounded">Update Record</h3>
+      <form method="post">
+          {% csrf_token %}
+          <input type="text" name="sd" class="form-control my-2" value="{{dc.stid}}">
+          <input type="text" name="sn" class="form-control my-2" value="{{dc.sname}}">
+          <input type="text" name="sb" class="form-control my-2" value="{{dc.sbranch}}">
+          <input type="number" name="sy" class="form-control my-2" max="4" min="1" value="{{dc.syear}}">
+          <div class="row">
+            <div class="col">
+              <a href="{% url 'sty' %}" class="btn btn-outline-secondary form-control">Back</a>
+            </div>
+            <div class="col">
+              <input type="submit" value="Update" class="form-control btn btn-outline-success">
+            </div>
+          </div>
+        </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
