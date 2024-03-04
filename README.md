@@ -45,3 +45,7 @@ Day-08[02-03-2024]:
 ===================
   - Grid System,margin,padding,card,color,table and buttons
   - Completed design for CRUD Operations
+
+Day-09[04-03-2024]:
+===================
+  - Create, Read and Update Operations by using forms in basic procedure
