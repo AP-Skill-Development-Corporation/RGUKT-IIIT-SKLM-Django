@@ -49,3 +49,9 @@ Day-08[02-03-2024]:
 Day-09[04-03-2024]:
 ===================
   - Create, Read and Update Operations by using forms in basic procedure
+
+Day-10[05-03-2024]:
+===================
+  - Delete Operation by using in basic procedure
+  - Forms Concept and Widgets for Employee model class
+  - CRUD Design by using Forms concept
