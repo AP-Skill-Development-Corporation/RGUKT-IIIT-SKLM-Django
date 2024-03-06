@@ -55,3 +55,8 @@ Day-10[05-03-2024]:
   - Delete Operation by using in basic procedure
   - Forms Concept and Widgets for Employee model class
   - CRUD Design by using Forms concept
+
+Day-11[06-03-2024]:
+===================
+  - CRUD Operations by using forms concept and form validations to it
+  - Message concept for CRUD Operations
