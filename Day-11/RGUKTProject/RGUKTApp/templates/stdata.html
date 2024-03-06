@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Displaying Data</title>
+	<script>
+		alert('Hi Welcome {{sn}}');
+	</script>
+</head>
+<body>
+	<h3>Student Data</h3>
+	<h4>Name: {{sn}}</h4>
+	<h4>Roll Number: {{rn}}</h4>
+	<h4>Branch: <span>
+		{% if sb == "1" %}
+			CSE
+		{% elif sb == "2" %}
+			ECE
+		{% elif sb == "3" %}
+			EEE
+		{% else %}
+			Others
+		{% endif %}
+	</span>
+	</h4>
+	<script type="text/javascript" src="{% static 'js/samp.js' %}"></script>
+</body>
+</html>
