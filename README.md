@@ -60,3 +60,9 @@ Day-11[06-03-2024]:
 ===================
   - CRUD Operations by using forms concept and form validations to it
   - Message concept for CRUD Operations
+
+Day-12[07-03-2024]:
+===================
+  - New Project and App Creations
+  - Static and Templates folder configurations for an app
+  - Template blocks, active paths in navbar
