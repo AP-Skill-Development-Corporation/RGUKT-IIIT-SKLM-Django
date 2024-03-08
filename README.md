@@ -66,3 +66,8 @@ Day-12[07-03-2024]:
   - New Project and App Creations
   - Static and Templates folder configurations for an app
   - Template blocks, active paths in navbar
+
+Day-13[08-03-2024]:
+===================
+  - Superuser Creation and Useage of Admin App
+  - User Authentication and Authorisation
