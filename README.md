@@ -69,5 +69,5 @@ Day-12[07-03-2024]:
 
 Day-13[08-03-2024]:
 ===================
-  - Superuser Creation and Useage of Admin App
+  - Superuser Creation and Useage of Admin App,Permissions to users
   - User Authentication and Authorisation
