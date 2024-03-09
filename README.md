@@ -71,3 +71,9 @@ Day-13[08-03-2024]:
 ===================
   - Superuser Creation and Useage of Admin App,Permissions to users
   - User Authentication and Authorisation
+
+Day-14[09-03-2024]:
+==================
+  - Validations and error message view in html file
+  - User Profile Creation and Updation
+  - File Uploading and Mail Concept
