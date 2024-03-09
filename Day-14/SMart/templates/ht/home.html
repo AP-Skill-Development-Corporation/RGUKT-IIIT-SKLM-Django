@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="jumbotron">
+  <h3>Welcome
+    {% if request.user.role == G %} 
+      Guest: {{request.user.username}}
+    {% elif request.user.role == C %} 
+      Client: {{request.user.username}}
+    {% elif request.user.role == M %} 
+      Manager: {{request.user.username}}
+    {% else %}
+      Anonymous
+    {% endif %}
+  </h3>
+</div>
+{% endblock %}

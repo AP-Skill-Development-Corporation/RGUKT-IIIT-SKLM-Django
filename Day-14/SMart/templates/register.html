@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}Register{% endblock %}
+{% block content %}
+{% if messages %}
+  {% for j in messages %}
+    <p class="alert alert-{{j.tags}} alert-dismissible mt-4">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      {{j}}
+    </p>
+  {% endfor %}
+{% endif %}
+<div class="card col-md-5 mx-auto shadow-lg border border-success">
+  <div class="card-body">
+    <h3 class="bg-info text-light border rounded p-2">Registration</h3>
+    <form method="post" novalidate>
+      {% csrf_token %}
+      {% for i in z %}
+        {{i}}
+        <p class="text-danger" style="font-size:12px">{{i.errors|lower|striptags}}</p>
+      {% endfor %}
+      <div class="row my-2">
+        <div class="col">
+          <a href="{% url 'lg' %}" class="btn btn-outline-secondary form-control">Existing User?</a>
+        </div>
+        <div class="col">
+          <input type="submit" value="subscribe" class="btn btn-outline-success form-control">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}
