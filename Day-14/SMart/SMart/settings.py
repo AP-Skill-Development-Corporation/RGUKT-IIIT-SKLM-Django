@@ -132,8 +132,8 @@ LOGIN_REDIRECT_URL = 'hm'
 EMAIL_USE_TLS = True
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "demomail413@gmail.com"
-EMAIL_HOST_PASSWORD ="dxia ngqo qkxr vwxo"
+EMAIL_HOST_USER = ""
+EMAIL_HOST_PASSWORD =""
 
 AUTH_USER_MODEL = 'StoreApp.User'
 
